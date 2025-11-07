@@ -13,14 +13,14 @@ else if (keyboard_check(vk_left)) {
 }
 
 else if (keyboard_check(vk_down)) {
-if (y < room_height - sprite_height / 2 {
+if (y < room_height - sprite_height / 2 ) {
 
     y += move_speed;}
     sprite_index = spr_MCdown;
 }
 
 else if (keyboard_check(vk_right)) {
-(if x < room_width - spride_width / 2) {
+if (x < room_width - spride_width / 2) {
 
     x += move_speed; }
     sprite_index = spr_MCright;
